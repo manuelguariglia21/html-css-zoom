@@ -8,13 +8,20 @@ body{
   font-family: 'Lato', sans-serif;
 }
 
+.anchor{
+  padding-top: 70px;
+}
+
 /* HEADER */
 
 header{
+  position: fixed;
   display: flex;
   justify-content: flex-end;
+  width: 100vw;
   height: 50px;
   background-color: black;
+  z-index: 800;
 }
 
 nav{
@@ -39,4 +46,57 @@ nav div:first-of-type{
 
 .btn.nav p .fas.fa-th{
   padding-right: 5px;
+}
+
+/* MAIN */
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: calc(100vh - 50px );
+  background-color: black;
+  overflow: auto;
+  z-index: 700;
+}
+
+.card-box{
+  position: relative;
+  background-image: url('https://www.fillmurray.com/246/146');
+  height: 146px;
+  width: 246px;
+  margin-bottom: 5px;
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 97px;
+  height: 27px;
+  font-size: 13px;
+  padding: 5px;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.name i{
+  margin-right: 2px;
+}
+
+/* FOOTER */
+
+footer{
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 80px;
+  background-color: #222222;
+  z-index: 800;
 }
