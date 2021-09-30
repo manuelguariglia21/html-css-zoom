@@ -12,6 +12,12 @@ body{
   padding-top: 70px;
 }
 
+.btn{
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
 /* HEADER */
 
 header{
@@ -39,9 +45,6 @@ nav div:first-of-type{
 .btn.nav{
   background-color: #666666;
   color:  white;
-  border-radius: 5px;
-  padding: 5px;
-  cursor: pointer;
 }
 
 .btn.nav p .fas.fa-th{
@@ -94,9 +97,31 @@ main{
 footer{
   position: fixed;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   width: 100vw;
-  height: 80px;
   background-color: #222222;
   z-index: 800;
+  text-align: center;
+}
+
+.foot{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.foot:last-of-type{
+  background-color: #4a4a4a;
+  color: red;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.foot .btn i{
+  font-size: 25px;
+}
+
+.foot .btn.active{
+  color: #32ca29;
 }
