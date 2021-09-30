@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+/* HEADER */
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  background-color: black;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+nav div:first-of-type{
+  margin-right: 5px;
+}
+
+.btn.nav{
+  background-color: #666666;
+  color:  white;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn.nav p .fas.fa-th{
+  padding-right: 5px;
+}
