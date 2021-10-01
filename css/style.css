@@ -8,10 +8,6 @@ body{
   font-family: 'Lato', sans-serif;
 }
 
-.anchor{
-  padding-top: 70px;
-}
-
 .btn{
   border-radius: 5px;
   padding: 5px;
@@ -21,7 +17,6 @@ body{
 /* HEADER */
 
 header{
-  position: fixed;
   display: flex;
   justify-content: flex-end;
   width: 100vw;
@@ -58,7 +53,7 @@ main{
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: calc(100vh - 50px );
+  height: calc(100vh - 130px );
   background-color: black;
   overflow: auto;
   z-index: 700;
@@ -95,10 +90,10 @@ main{
 /* FOOTER */
 
 footer{
-  position: fixed;
   display: flex;
   justify-content: space-between;
   width: 100vw;
+  height: 80px;
   background-color: #222222;
   z-index: 800;
   text-align: center;
@@ -125,3 +120,4 @@ footer{
 .foot .btn.active{
   color: #32ca29;
 }
+
