@@ -61,7 +61,6 @@ main{
 
 .card-box{
   position: relative;
-  background-image: url('https://www.fillmurray.com/246/146');
   height: 146px;
   width: 246px;
   margin-bottom: 5px;
@@ -102,6 +101,7 @@ footer{
 .foot{
   display: flex;
   justify-content: space-between;
+  flex-shrink: 0;
   align-items: center;
   color: white;
 }
